@@ -273,7 +273,7 @@ function renderCheckoutSummary() {
     if(!summaryContainer) return;
 
     summaryContainer.innerHTML = "";
-
+    
     cartItems.forEach(item => {
         const cartCard = document.createElement("div");
         cartCard.classList.add("cart-card");
