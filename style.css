@@ -260,6 +260,12 @@ main{
   font-weight: bold;
 }
 
+footer{
+    text-align: center;
+    background-color: #555;
+    padding: 20px;
+}
+
 @media (max-width: 768px) {
   .checkout-layout {
     flex-direction: column;
