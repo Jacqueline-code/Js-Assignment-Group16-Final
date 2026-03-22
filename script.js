@@ -5,7 +5,10 @@ const products = [
     {id: 2, name: "Phone", price: 4000000, category: "Electronics", image: "images/phone.jpg"},
     {id: 3, name: "Shoes", price: 500000, category: "Fashion", image: "images/shoe.jpg"},
     {id: 4, name: "Clothes", price: 30000, category: "Fashion", image: "images/cloth.jpg"},
-    {id: 6, name: "Tablet", price: 800000, category: "Electronics", image: "images/tablet.jpg"} 
+    {id: 5, name: "Tablet", price: 800000, category: "Electronics", image: "images/tablet.jpg"}
+    {id: 6, name: "Premium leather totes", price: 854000, category: "Bags", image: "images/twinhb.jpeg"}
+    {id: 7, name: "Chromium watch", price: 760000, category: "Accessories", image: "images/watch1.jpeg"}
+    {id: 8, name: "Kronos", price: 1000000, category: "Accessories", image: "images/watch2.jpeg"} 
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
