@@ -6,7 +6,7 @@ const products = [
     {id: 3, name: "Shoes", price: 500000, category: "Fashion", image: "images/shoe.jpg"},
     {id: 4, name: "Clothes", price: 30000, category: "Fashion", image: "images/cloth.jpg"},
     {id: 6, name: "Tablet", price: 800000, category: "Electronics", image: "images/tablet.jpg"},
-    {id: 7, name: "Watch", price: 20000, category: "Accessesories", image: "images/watch.jpg"} 
+    {id: 7, name: "Watch", price: 20000, category: "Accessesories", image: "images/watch2.jpg"} 
     
 ];
 
