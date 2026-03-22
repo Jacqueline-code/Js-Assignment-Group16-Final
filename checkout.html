@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Mart | Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo"><h1>E-MART</h1></div>
+            <div class="links">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="checkout.html">Checkout</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="checkout">
+            <h2>Checkout Summary</h2>
+            <div class="checkout-layout">
+                <div class="summary-container">
+                    <!-- Dynamic cart summary -->
+                </div>
+                <div>
+            <form class="checkout-form">
+                <h3>Shipping Details</h3>
+                <input type="text" id="customer-name" placeholder="Full Name" required>
+                <input type="email" id="customer-email" placeholder="Email" required>
+                <input type="text" id="customer-address" placeholder="Address" required>
+                <input type="text" id="customer-city" placeholder="City" required>
+                <select id="payment-method" required>
+                    <option value="">Select Payment</option>
+                    <option value="card">Credit Card</option>
+                    <option value="cash">Cash on Delivery</option>
+                </select>
+            </form>
+            <div class="total-section">
+                <h3>Total: <span id="total-amount">UGX 0</span></h3>
+                <button id="place-order" type="button">Place Order</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
